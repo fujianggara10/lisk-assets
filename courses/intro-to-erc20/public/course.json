@@ -1,0 +1,71 @@
+{
+  "chain": "ethereum",
+  "language": "solidity",
+  "slug": "intro-to-erc-20",
+  "name": "Introduction to fungible ERC20 tokens",
+  "name_id": "Pengantar token ERC20 yang dapat dipertukarkan",
+  "description": "In this Solidity course you will learn how to build a simple fungible token of the ERC-20 standard using the OpenZeppelin library.",
+  "description_id": "Dalam kursus Solidity ini, Anda akan belajar cara membangun token sederhana yang dapat dipertukarkan dengan standar ERC-20 menggunakan pustaka OpenZeppelin.",
+  "type": "course",
+  "plugin": "@agorapp-dao/editor-plugin-solidity",
+  "config": {
+    "tests": true,
+    "enableLessonsWithProgress": true
+  },
+  "lessons": [
+    {
+      "name": "What is the ERC-20 standard",
+      "name_id": "Apa itu standar ERC-20",
+      "slug": "01-overview",
+      "content": "01-overview/lesson.md",
+      "content_id": "01-overview/lesson_id.md",
+      "files": ["01-overview/contract.sol"],
+      "solution": "01-overview/solution.md"
+    },
+    {
+      "name": "Open source implementations",
+      "name_id": "Implementasi sumber terbuka",
+      "slug": "02-opensource",
+      "content": "02-opensource/lesson.md",
+      "content_id": "02-opensource/lesson_id.md",
+      "files": ["02-opensource/contract.sol"],
+      "solution": "02-opensource/solution.md"
+    },
+    {
+      "name": "Mint and burn tokens",
+      "name_id": "Mencetak dan membakar token",
+      "slug": "03-mint-burn",
+      "content": "03-mint-burn/lesson.md",
+      "content_id": "03-mint-burn/lesson_id.md",
+      "files": ["03-mint-burn/contract.sol"],
+      "solution": "03-mint-burn/solution.md"
+    },
+    {
+      "name": "Balances and transfers",
+      "name_id": "Saldo dan transfer",
+      "slug": "04-balances-transfers",
+      "content": "04-balances-transfers/lesson.md",
+      "content_id": "04-balances-transfers/lesson_id.md",
+      "files": ["04-balances-transfers/contract.sol"],
+      "solution": "04-balances-transfers/solution.md"
+    },
+    {
+      "name": "Transfers from another address and approvals",
+      "name_id": "Transfer dari alamat lain dan persetujuan",
+      "slug": "05-transfer-from-approve",
+      "content": "05-transfer-from-approve/lesson.md",
+      "content_id": "05-transfer-from-approve/lesson_id.md",
+      "files": ["05-transfer-from-approve/contract.sol"],
+      "solution": "05-transfer-from-approve/solution.md"
+    },
+    {
+      "name": "Custom ERC20 implementation",
+      "name_id": "Implementasi ERC20 kustom",
+      "slug": "06-custom-implementation",
+      "content": "06-custom-implementation/lesson.md",
+      "content_id": "06-custom-implementation/lesson_id.md",
+      "files": ["06-custom-implementation/contract.sol"],
+      "solution": "06-custom-implementation/solution.md"
+    }
+  ]
+}

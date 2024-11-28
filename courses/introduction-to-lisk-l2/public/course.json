@@ -1,0 +1,15 @@
+{
+  "chain": "lisk",
+  "language": "typescript",
+  "slug": "introduction-to-lisk-l2",
+  "name": "Introduction to Lisk L2",
+  "name_id": "Pengantar Lisk L2",
+  "description": "Lisk is an L2 network built on top of Ethereum that provides a whole ecosystem of functionalities and applications",
+  "description_id": "Lisk adalah jaringan L2 yang dibangun di atas Ethereum yang menyediakan seluruh ekosistem fungsionalitas dan aplikasi.",
+  "type": "course",
+  "plugin": "@agorapp-dao/editor-plugin-typescript",
+  "config": {
+    "tests": true
+  },
+  "lessons": []
+}

@@ -1,0 +1,71 @@
+{
+  "chain": "ethereum",
+  "language": "solidity",
+  "slug": "intro-to-erc-721",
+  "name": "Introduction to non-fungible ERC-721 tokens (NFTs)",
+  "name_id": "Pengantar token ERC-721 yang tidak dapat dipertukarkan (NFT)",
+  "description": "In this Solidity course you will learn how to build a simple NFT implementation of the ERC-721 standard using the OpenZeppelin library.",
+  "description_id": "Dalam kursus Solidity ini, Anda akan belajar cara membangun implementasi NFT sederhana dengan standar ERC-721 menggunakan pustaka OpenZeppelin.",
+  "type": "course",
+  "plugin": "@agorapp-dao/editor-plugin-solidity",
+  "config": {
+    "tests": true,
+    "enableLessonsWithProgress": true
+  },
+  "lessons": [
+    {
+      "name": "Introduction to ERC-721",
+      "name_id": "Pengantar ERC-721",
+      "slug": "01-declare-erc721",
+      "content": "01-declare-erc721/lesson.md",
+      "content_id": "01-declare-erc721/lesson_id.md",
+      "files": ["01-declare-erc721/contract.sol"],
+      "solution": "01-declare-erc721/solution.md"
+    },
+    {
+      "name": "The ERC-721 mint function",
+      "name_id": "Fungsi mint pada ERC-721",
+      "slug": "02-mint-function",
+      "content": "02-mint-function/lesson.md",
+      "content_id": "02-mint-function/lesson_id.md",
+      "files": ["02-mint-function/contract.sol"],
+      "solution": "02-mint-function/solution.md"
+    },
+    {
+      "name": "NFT Access Control",
+      "name_id": "Kontrol Akses NFT",
+      "slug": "03-access-control",
+      "content": "03-access-control/lesson.md",
+      "content_id": "03-access-control/lesson_id.md",
+      "files": ["03-access-control/contract.sol"],
+      "solution": "03-access-control/solution.md"
+    },
+    {
+      "name": "ERC-721 TokenID patterns",
+      "name_id": "Pola TokenID pada ERC-721",
+      "slug": "04-auto-incrementable-id",
+      "content": "04-auto-incrementable-id/lesson.md",
+      "content_id": "04-auto-incrementable-id/lesson_id.md",
+      "files": ["04-auto-incrementable-id/contract.sol"],
+      "solution": "04-auto-incrementable-id/solution.md"
+    },
+    {
+      "name": "Introduction to NFT metadata",
+      "name_id": "Pengantar metadata NFT",
+      "slug": "05-nft-metadata",
+      "content": "05-nft-metadata/lesson.md",
+      "content_id": "05-nft-metadata/lesson_id.md",
+      "files": ["05-nft-metadata/contract.sol"],
+      "solution": "05-nft-metadata/solution.md"
+    },
+    {
+      "name": "ERC-721 tokenURI and metadata",
+      "name_id": "tokenURI dan metadata pada ERC-721",
+      "slug": "06-metadata-and-storage-token-uri",
+      "content": "06-metadata-and-storage-token-uri/lesson.md",
+      "content_id": "06-metadata-and-storage-token-uri/lesson_id.md",
+      "files": ["06-metadata-and-storage-token-uri/contract.sol"],
+      "solution": "06-metadata-and-storage-token-uri/solution.md"
+    }
+  ]
+}

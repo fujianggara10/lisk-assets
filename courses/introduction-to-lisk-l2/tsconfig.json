@@ -1,0 +1,6 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {},
+  "include": ["src/**/*.ts", "../**/*.d.ts"],
+  "exclude": ["./public/**/*"]
+}

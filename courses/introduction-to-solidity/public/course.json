@@ -1,0 +1,107 @@
+{
+  "chain": "ethereum",
+  "language": "solidity",
+  "slug": "introduction-to-solidity",
+  "name": "Introduction to Ethereum & Solidity",
+  "name_id": "Pengantar Ethereum & Solidity",
+  "description": "Solidity is the most popular language to develop smart contracts on Ethereum and other EVM-compatible blockchains. In this course you will get familiar with Solidity syntax and features.",
+  "description_id": "Solidity adalah bahasa yang paling populer untuk mengembangkan kontrak pintar di Ethereum dan blockchain lain yang kompatibel dengan EVM. Dalam kursus ini, Anda akan mengenal sintaks dan fitur Solidity.",
+  "type": "course",
+  "plugin": "@agorapp-dao/editor-plugin-solidity",
+  "config": {
+    "tests": true,
+    "enableLessonsWithProgress": true
+  },
+  "lessons": [
+    {
+      "name": "Declare a Solidity contract",
+      "name_id": "Mendeklarasikan kontrak Solidity",
+      "slug": "01-contract-declaration",
+      "content": "01-contract-declaration/lesson.md",
+      "content_id": "01-contract-declaration/lesson_id.md",
+      "files": ["01-contract-declaration/greeter.sol"],
+      "solution": "01-contract-declaration/solution.md"
+    },
+    {
+      "name": "Lock a pragma version",
+      "name_id": "Mengunci versi pragma",
+      "slug": "02-locking-pragma",
+      "content": "02-locking-pragma/lesson.md",
+      "content_id": "02-locking-pragma/lesson_id.md",
+      "files": ["02-locking-pragma/greeter.sol"],
+      "solution": "02-locking-pragma/solution.md"
+    },
+    {
+      "name": "State variables",
+      "name_id": "Variabel status",
+      "slug": "03-set-state-variable",
+      "content": "03-set-state-variable/lesson.md",
+      "content_id": "03-set-state-variable/lesson_id.md",
+      "files": ["03-set-state-variable/greeter.sol"],
+      "solution": "03-set-state-variable/solution.md"
+    },
+    {
+      "name": "Read-only functions",
+      "name_id": "Fungsi hanya-baca",
+      "slug": "04-view-functions",
+      "content": "04-view-functions/lesson.md",
+      "content_id": "04-view-functions/lesson_id.md",
+      "files": ["04-view-functions/greeter.sol"],
+      "solution": "04-view-functions/solution.md"
+    },
+    {
+      "name": "State-changing functions",
+      "name_id": "Fungsi yang mengubah status",
+      "slug": "05-functions-and-state",
+      "content": "05-functions-and-state/lesson.md",
+      "content_id": "05-functions-and-state/lesson_id.md",
+      "files": ["05-functions-and-state/greeter.sol"],
+      "solution": "05-functions-and-state/solution.md"
+    },
+    {
+      "name": "Contract events",
+      "name_id": "Acara kontrak",
+      "slug": "06-contract-events",
+      "content": "06-contract-events/lesson.md",
+      "content_id": "06-contract-events/lesson_id.md",
+      "files": ["06-contract-events/greeter.sol"],
+      "solution": "06-contract-events/solution.md"
+    },
+    {
+      "name": "Introduction to Constructors",
+      "name_id": "Pengenalan Konstruktor",
+      "slug": "07-contract-constructor",
+      "content": "07-contract-constructor/lesson.md",
+      "content_id": "07-contract-constructor/lesson_id.md",
+      "files": ["07-contract-constructor/greeter.sol"],
+      "solution": "07-contract-constructor/solution.md"
+    },
+    {
+      "name": "Global variables and msg.sender",
+      "name_id": "Variabel global dan msg.sender",
+      "slug": "08-msg-sender",
+      "content": "08-msg-sender/lesson.md",
+      "content_id": "08-msg-sender/lesson_id.md",
+      "files": ["08-msg-sender/greeter.sol"],
+      "solution": "08-msg-sender/solution.md"
+    },
+    {
+      "name": "Enforce constraints with require",
+      "name_id": "Memperketat batasan dengan require",
+      "slug": "09-require-statement",
+      "content": "09-require-statement/lesson.md",
+      "content_id": "09-require-statement/lesson_id.md",
+      "files": ["09-require-statement/greeter.sol"],
+      "solution": "09-require-statement/solution.md"
+    },
+    {
+      "name": "Introduction to modifiers",
+      "name_id": "Pengenalan modifier",
+      "slug": "10-contract-modifiers",
+      "content": "10-contract-modifiers/lesson.md",
+      "content_id": "10-contract-modifiers/lesson_id.md",
+      "files": ["10-contract-modifiers/greeter.sol"],
+      "solution": "10-contract-modifiers/solution.md"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "chain": "lisk",
+  "language": "typescript",
+  "slug": "introduction-to-javascript",
+  "name": "Introduction to Blockchain & Javascript",
+  "name_id": "Pengantar Blockchain & Javascript",
+  "description": "JavaScript is a programming language that adds interactivity, handles events, and powers dynamic content mostly on websites and web applications",
+  "description_id": "JavaScript adalah bahasa pemrograman yang menambahkan interaktivitas, menangani acara, dan mendukung konten dinamis terutama di situs web dan aplikasi web",
+  "type": "course",
+  "plugin": "@agorapp-dao/editor-plugin-typescript",
+  "config": {
+    "tests": true
+  },
+  "lessons": [
+    {
+      "name": "JavaScript basics",
+      "name_id": "Dasar-dasar JavaScript",
+      "slug": "01-javascript-basics",
+      "content": "01-javascript-basics/lesson.md",
+      "content_id": "01-javascript-basics/lesson_id.md",
+      "files": ["01-javascript-basics/app.ts"],
+      "defaultFile": "app.ts",
+      "solution": "01-javascript-basics/solution.md"
+    },
+    {
+      "name": "Hello world",
+      "name_id": "Halo Dunia",
+      "slug": "02-hello-world",
+      "content": "02-hello-world/lesson.md",
+      "content_id": "02-hello-world/lesson_id.md",
+      "files": ["02-hello-world/app.ts"],
+      "defaultFile": "app.ts",
+      "solution": "02-hello-world/solution.md"
+    },
+    {
+      "name": "Variables and functions",
+      "name_id": "Variabel dan Fungsi",
+      "slug": "03-variables-and-functions",
+      "content": "03-variables-and-functions/lesson.md",
+      "content_id": "03-variables-and-functions/lesson_id.md",
+      "files": ["03-variables-and-functions/app.ts"],
+      "defaultFile": "app.ts",
+      "solution": "03-variables-and-functions/solution.md"
+    },
+    {
+      "name": "Control structures",
+      "name_id": "Struktur Kontrol",
+      "slug": "04-control-structures",
+      "content": "04-control-structures/lesson.md",
+      "content_id": "04-control-structures/lesson_id.md",
+      "files": ["04-control-structures/app.ts"],
+      "defaultFile": "app.ts",
+      "solution": "04-control-structures/solution.md"
+    },
+    {
+      "name": "Objects and arrays",
+      "name_id": "Objek dan Array",
+      "slug": "05-objects-and-arrays",
+      "content": "05-objects-and-arrays/lesson.md",
+      "content_id": "05-objects-and-arrays/lesson_id.md",
+      "files": ["05-objects-and-arrays/app.ts"],
+      "defaultFile": "app.ts",
+      "solution": "05-objects-and-arrays/solution.md"
+    },
+    {
+      "name": "Asynchronous JavaScript",
+      "name_id": "JavaScript Asinkron",
+      "slug": "06-asynchronous-javascript",
+      "content": "06-asynchronous-javascript/lesson.md",
+      "content_id": "06-asynchronous-javascript/lesson_id.md",
+      "files": ["06-asynchronous-javascript/app.ts", "06-asynchronous-javascript/greeting.text"],
+      "defaultFile": "app.ts",
+      "solution": "06-asynchronous-javascript/solution.md"
+    }
+  ]
+}
