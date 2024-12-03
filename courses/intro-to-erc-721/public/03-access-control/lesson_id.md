@@ -4,7 +4,7 @@ Ketika kita berbicara tentang kontrol akses, kita mengacu pada serangkaian kebij
 
 Dalam dunia pengembangan blockchain, kontrol akses merupakan konsep keamanan yang paling mendasar ketika mengembangkan smart contract.
 
-Sifat kode on-chain yang tidak dapat diubah membuatnya sangat sulit untuk ditambal. Bahkan dalam kasus-kasus di mana [kontrak dapat ditingkatkan] (https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable), memperbaiki bug bukanlah tugas yang mudah.
+Sifat kode on-chain yang tidak dapat diubah membuat bug sangat sulit untuk diperbaiki. Bahkan dalam kasus-kasus di mana [kontrak dapat ditingkatkan] (https://docs.openzeppelin.com/upgrades-plugins/1.x/writing-upgradeable), memperbaiki bug bukanlah tugas yang mudah.
 
 Salah satu kelas kerentanan yang paling umum adalah, pada kenyataannya, kebijakan kontrol akses yang salah konfigurasi.
 
