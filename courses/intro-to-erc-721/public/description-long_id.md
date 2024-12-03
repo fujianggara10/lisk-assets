@@ -2,13 +2,13 @@
 
 ## Cara Kerja Token Non-Fungible (NFT)
 
-Token non-fungible, atau NFT, adalah jenis aset digital yang mewakili kepemilikan item atau konten **unik** di blockchain. Berbeda dengan token fungible (seperti token ERC-20), yang dapat dipertukarkan dan memiliki nilai yang sama dengan token lain dari jenis yang sama, sebagian besar NFT unik dan biasanya tidak dapat dipertukarkan satu-satu.
+Token non-fungible, atau NFT, adalah jenis aset digital yang merepresentasikan kepemilikan item atau konten unik di blockchain. Berbeda dengan token fungible (seperti token ERC-20), yang dapat dipertukarkan dan memiliki nilai yang sama dengan token lain dari jenis yang sama, sebagian besar NFT bersifat unik dan biasanya tidak dapat dipertukarkan satu-satu.
 
-Ada beberapa standar untuk NFT, tetapi yang asli dan paling umum digunakan disebut ERC-721. Itulah sebabnya Anda mungkin juga melihat nama **token ERC-721** sebagai alias untuk NFT.
+Ada beberapa standar untuk NFT, tetapi yang paling umum digunakan adalah ERC-721. Itulah sebabnya Anda mungkin sering melihat istilah token ERC-721 digunakan sebagai sinonim untuk NFT.
 
-NFT sering dirilis dalam kelompok yang memiliki arti serupa — kelompok ini disebut **koleksi**. Misalnya, Anda mungkin memiliki NFT yang mewakili gambar kucing oleh penulis yang sama dalam satu koleksi, dan NFT yang mewakili gambar anjing oleh penulis yang berbeda dalam koleksi lain. Salah satu koleksi terkenal disebut **Bored Ape Yacht Club**, yaitu sekumpulan gambar digital animasi kera dengan berbagai kostum dan aksesoris.
+NFT sering dirilis dalam kelompok dengan tema atau karakteristik serupa yang disebut koleksi. Misalnya, Anda mungkin memiliki NFT yang merepresentasikan gambar kucing dari seorang seniman dalam satu koleksi, dan NFT lain berupa gambar anjing dari seniman lain dalam koleksi berbeda. Salah satu koleksi terkenal adalah Bored Ape Yacht Club, yaitu kumpulan gambar digital animasi kera dengan berbagai kostum dan aksesoris.
 
-Setiap token non-fungible adalah representasi on-chain dari kombinasi berikut:
+Setiap non-fungible token adalah representasi on-chain dari kombinasi elemen berikut:
 
 - **ID Token Numerik**: Bilangan bulat sederhana yang unik untuk setiap token dalam sebuah koleksi.
 - **Alamat Kontrak Koleksi**: Seperti alamat dompet Anda, setiap kontrak pintar koleksi dapat diidentifikasi dengan alamat uniknya di jaringan.
@@ -86,4 +86,3 @@ Siapa pun dapat menggunakan pasar untuk mendaftarkan NFT yang mereka miliki untu
 Karena listing terkait dengan pasar tertentu, beberapa penulis mungkin memilih untuk mendaftarkan NFT mereka untuk dijual hanya di satu atau dua situs terbesar, sementara yang lain mungkin ingin mendaftarkannya sebanyak mungkin.
 
 Apakah Anda ingin mencoba membangun koleksi Anda sendiri? Jika ya, lanjutkan ke kursus IDE berikutnya di mana Anda dapat belajar untuk membuat kontrak pintar koleksi NFT sederhana.
-
