@@ -12,7 +12,7 @@ Namun, pustaka `Counters` cukup sederhana sehingga kita dapat membuat versi yang
 
 ### Latihan
 
-Sejauh ini, fungsi pencetakan (minting) kita menetapkan ID token sebagai nilai yang diberikan oleh pemanggil fungsi melalui argumen `uint256`.
+Sejauh ini, fungsi mint kita menetapkan ID token sebagai nilai yang diberikan oleh pemanggil fungsi melalui argumen `uint256`.
 
 Namun, ini bukan praktik standar.
 
