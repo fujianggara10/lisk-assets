@@ -18,7 +18,7 @@ Namun, ini bukan praktik standar.
 
 Biasanya, ID token adalah nilai yang awalnya ditetapkan ke 0 dan bertambah secara berurutan, naik satu setiap kali token berhasil dicetak.
 
-- Hapus argumen `uint256` yang diteruskan ke fungsi `mintBadge`.
+- Hapus argumen uint256 yang diteruskan ke fungsi `mintBadge`.
 - ID token diharapkan menjadi nilai yang awalnya disetel ke 0 dan bertambah 1 setiap kali NFT baru diterbitkan.
-- Definisikan fungsi getter bernama `getCurrentTokenId` yang mengembalikan nilai `uint256` `tokenId` saat ini.
+- Definisikan fungsi getter bernama `getCurrentTokenId` yang mengembalikan uint256 `tokenId` saat ini.
 - Jangan tambahkan dependensi tambahan.
